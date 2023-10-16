@@ -4,9 +4,9 @@
    const list = document.getElementById('list');
  
    btn.addEventListener('click', handleclick);
-      event.preventDefault();
-      event.stopPropagation();
-     const trimmed_text = new_task_input.value.trim();
+      preventDefault();
+      stopPropagation();
+     
 
   let new_title= input.value;
   if(new_title.trim () !=="") {
